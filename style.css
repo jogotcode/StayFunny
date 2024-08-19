@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width:43rem;
+  height:100vh;
+  background-color: #FFF455;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.getJoke{
+ font-size: min(50px,500px);
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 20rem;
+ justify-content: space-around;
+ background-color: #FFF455;
+}
+
+.getJoke h2 , p{
+  margin: 0 auto;
+}
+.getJoke p {
+  font-size:20px ;
+}
+
+header{
+  width:100%;
+  max-height: 50px;
+  color:black;
+  font-size: 25px;
+  background-color: #FFF455;
+  
+}
+
+.jokedisplay{
+  background-color: #FFC700;
+  width:43rem; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #FFF455 black;
+  overflow-x: hidden;
+}
+
+.joke{
+  border: 5px solid #FFF455;
+  width: auto;
+  min-height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+ 
+  
+
+}
+
+#jokebtn{
+  margin: 0 auto;
+  width: 25%;
+  height: 20%;
+  border-radius:15px;
+
+  background-color: #FFC700;
+
+}
+
+#jokebtn:hover{
+  background-color: #ffe68e;
+  color: #ffffff;
+} 
+#jokebtn:active {
+background-color: #FFF455;
+color: #FFC700;
+}
+
+
+
+p{
+  width: 100%;
+  text-align: center;
+  overflow-wrap: anywhere;
+  
+}
+
+
+
+.BGVID{
+  
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: blur(10px);
+}
